@@ -1,16 +1,15 @@
-# solution
+# Solution [Download Apk Link](https://drive.google.com/file/d/1C_xzrWmjxhEp5MgzkoEIgvp3IZuJze-2/view?usp=share_link)
 
-A new Flutter project.
+### Ouputs on different screen sizes
 
-## Getting Started
+##### Display Resolution: 720x1560 (266 DPI)
 
-This project is a starting point for a Flutter application.
+![ScreenShot_1](./screenshots/resolution_720x1560_1.png) <img src="./screenshots/resolution_720x1560_2.png" width="280"/>
 
-A few resources to get you started if this is your first Flutter project:
+##### Display Resolution: 1560x1560 (266 DPI)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+![ScreenShot_1](./screenshots/resolution_1560x1560.png)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##### Display Resolution: 2388x1668 (264 DPI)
+
+![ScreenShot_1](./screenshots/resolution_2388x1668.png)
