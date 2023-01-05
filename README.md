@@ -1,4 +1,4 @@
-# Solution [Download Apk Link](https://drive.google.com/file/d/1C_xzrWmjxhEp5MgzkoEIgvp3IZuJze-2/view?usp=share_link) | [Drive Link](https://drive.google.com/file/d/1C_xzrWmjxhEp5MgzkoEIgvp3IZuJze-2/view?usp=share_link)
+# Solution [Download Apk Link](https://drive.google.com/file/d/1C_xzrWmjxhEp5MgzkoEIgvp3IZuJze-2/view?usp=share_link) | [Drive Link](https://drive.google.com/drive/folders/1Jgcb-8z0c3mgIpySfrVXA05MR0g_ehuU?usp=share_link)
 
 ### Ouputs on different screen sizes
 
