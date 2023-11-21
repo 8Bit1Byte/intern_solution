@@ -1,0 +1,47 @@
+az config unset core.allow_broker
+
+az login --service-principal -u <user_name> -p <password> --tenant <tenant>
+az configure --defaults group=$GROUP workspace=$WORKSPACE
+
+
+LOGIN USING
+az login --service-principal -u b8e782e0-b28f-4ff7-9e64-a14ef6c0d7a7 -p zo_8Q~uac.ke7CRZ1hmUAsjN74D-WPnA6u.9AcJ~ --tenant db05faca-c82a-4b9d-b9c5-0f64b6755421
+az configure --defaults group=enlp-rg-ml-lowerenv workspace=enlp-ml-workspace-lowerenv
+
+
+enlp-non-prod  (For Azure Devosp deployment pipeline and Jenkins terraform pipeline)
+"appId": "b8e782e0-b28f-4ff7-9e64-a14ef6c0d7a7",
+"displayName": "enlp-non-prod",
+"password": "zo_8Q~uac.ke7CRZ1hmUAsjN74D-WPnA6u.9AcJ~",
+"tenant": "db05faca-c82a-4b9d-b9c5-0f64b6755421"
+ 
+
+az login --service-principal -u a59026fe-9137-4a34-b92d-e467c3b9a7c8 -p 5V18Q~TclUyyIITwhJVAQa1oZ5vJDPP2UM_rLbqK --tenant db05faca-c82a-4b9d-b9c5-0f64b6755421
+az configure --defaults group=enlp-rg-ml-upperenv workspace=enlp-ml-workspace-upperenv
+
+enlp-prod (For Azure Devosp deployment pipeline and Jenkins terraform pipeline)
+"appId": "a59026fe-9137-4a34-b92d-e467c3b9a7c8",
+"displayName": "enlp-prod",
+"password": "5V18Q~TclUyyIITwhJVAQa1oZ5vJDPP2UM_rLbqK",
+"tenant": "db05faca-c82a-4b9d-b9c5-0f64b6755421"
+
+
+az login
+az aks get-credentials --resource-group enlp-rg-aks-qa --name enlp-aks-qa
+kubectl get pods
+	Github-Runner: enlp-selfhosted-runner-repo-nnjwx-gr7l5
+
+===============
+
+az login
+az account set --subscription c13d3595-ec03-436d-b30a-b21c2b16d804
+az account set --subscription "NLPaaS - NonProd"
+az configure --defaults group=enlp-rg-ml-lowerenv workspace=enlp-rg-ml-lowerenv
+
+
+connect to qa1 cluster
+	az aks get-credentials --resource-group enlp-rg-aks-qa --name enlp-aks-qa
+Get enlp-ml-secret
+	kubectl describe secret enlp-ml-secret
+
+ kubectl delete secret enlp-ml-secret
